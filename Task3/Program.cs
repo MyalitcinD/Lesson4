@@ -21,9 +21,9 @@ namespace Task3
             else {
                 int len = 0;
                 //int count_c = 0;
-                while((len+C)<=A) {
+                while((len + C) <= A) {
                     int hight = C;
-                    while((hight+C)<=B) {
+                    while((hight + C) <= B) {
                         hight += C;
                         count_c += 1;
                     }
@@ -31,7 +31,7 @@ namespace Task3
                     len += C;
                 }
             }
-            Console.WriteLine("В прямоугольник {0} на {1} поместиться {2} квадратов со стороной {3}",A,B,count_c,C);
+            Console.WriteLine("В прямоугольник {0} на {1} поместиться {2} квадратов со стороной {3}", A, B, count_c, C);
             Console.ReadKey();
         }
     }
